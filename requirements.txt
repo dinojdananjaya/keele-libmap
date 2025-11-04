@@ -1,0 +1,9 @@
+﻿# Runtime: (stdlib only for now)
+
+# Dev/test:
+pytest
+black
+flake8
+isort
+mypy
+pre-commit

@@ -1,0 +1,12 @@
+﻿__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+.pytest_cache/
+.vscode/
+.DS_Store
+
+# Output / submission
+*.zip
+demo/*.mp4
+demo/*.mov
