@@ -21,8 +21,9 @@ class Catalog:
             if cm in self._by_classmark:
                 self._by_classmark[cm] = (self._by_classmark[cm][0], set(subs))
             else:
-                # Classmark with subjects but no location → still track with empty location?
-                # Better: omit from results unless a location is later provided.
+                # Classmark with subjects but no location → s
+                # till track with empty location?
+                # Better: omit from results unless a location is later.
                 self._by_classmark[cm] = ("", set(subs))
 
         # Subject index
