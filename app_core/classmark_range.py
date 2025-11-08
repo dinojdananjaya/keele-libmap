@@ -1,5 +1,5 @@
-# I acknowledge using ChatGPT (GPT-5 Thinking) as a reviewer for structure/QA.
-# Code is my own; no generated content is used in this file.
+# GenAI reviewer used for structure/QA; code authored by me.
+# No generated code is used in this file.
 
 """
 Classmark range utilities.
@@ -50,7 +50,7 @@ def int_to_classmark(n: int) -> str:
 
 
 def expand_range(start: str, end: str) -> List[str]:
-    """Inclusive expansion from start to end, after validation & normalization."""
+    """Inclusive expansion from start to end, validation & normalization."""
     s = start.strip().upper()
     e = end.strip().upper()
     if not is_valid_classmark(s) or not is_valid_classmark(e):
